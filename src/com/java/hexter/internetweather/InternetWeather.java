@@ -8,6 +8,7 @@ public class InternetWeather {
 		
 		mCurrentConditions=new CurrentConditions();
 		mWeatherData=new WeatherData(mCurrentConditions);
+
 		
 		mWeatherData.setData(30, 150, 40);
 	}
